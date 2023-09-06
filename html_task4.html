@@ -10,29 +10,32 @@
         width: 1000px;
       }
       label {
-        width: 50px;
+        display: inline-block;
+        width: 200px;
+        padding-top: 4px;
+        padding-bottom: 4px;
       }
     </style>
   </head>
   <body>
     <form>
-      <label for="Name">Name</label>
+      <label for="Name">Full Name:</label>
       <input type="text" placeholder="Full name" /><br />
-      <label for="Uname">Username</label>
+      <label for="Uname">Username:</label>
       <input type="text" placeholder="Username" /><br />
-      <label for="pass">Password</label>
+      <label for="pass">Password:</label>
       <input type="password" placeholder="Enter password" /><br />
-      <label for="pass">Confirm Password</label>
+      <label for="pass">Re Password:</label>
       <input type="password" placeholder="Enter password" /><br />
-      <label for="addrs">Address</label>
+      <label for="addrs">Address:</label>
       <input type="text" placeholder="Address" /><br />
-      <label for="age">Age</label>
+      <label for="age">Age:</label>
       <input type="number" placeholder="Enter your age" /><br />
-      <label for="gen">Gender</label>
+      <label for="gen">Gender:</label>
       <select name="gen" id="gen">
         <option>Select</option>
-        <option value="male">M</option>
-        <option value="female">F</option></select
+        <option value="male">Male</option>
+        <option value="female">Female</option></select
       ><br />
       <button>Save</button>
     </form>

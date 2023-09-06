@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td,
+      tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="color: blue; text-align: center">Registration Form</h2>
+    <table>
+      <tr>
+        <td style="text-align: center">First name</td>
+        <td style="width: 400px"><input style="width: 400px" type="text" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Last name</td>
+        <td style="width: 400px"><input style="width: 400px" type="text" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Email</td>
+        <td style="width: 400px">
+          <input style="width: 400px" type="email" />
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Password</td>
+        <td style="width: 400px">
+          <input style="width: 400px" type="password" />
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Re-enter Password</td>
+        <td style="width: 400px">
+          <input style="width: 400px" type="password" />
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Gender</td>
+        <td>
+          <table>
+            <tr style="text-align: start">
+              <td style="width: 404px">
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+              </td>
+            </tr>
+            <tr style="text-align: start">
+              <td>
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Age</td>
+        <td><input style="width: 400px" type="text" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Phone Number</td>
+        <td><input style="width: 400px" type="text" /></td>
+      </tr>
+      <tr style="height: 70px">
+        <td style="text-align: center">Address</td>
+        <td><input type="text" style="width: 400px; height: 70px" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">State</td>
+        <td><input style="width: 400px" type="text" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Country</td>
+        <td>
+          <select name="country" id="country">
+            <option>Select Country</option>
+            <option value="india">India</option>
+            <option value="india">Singapore</option>
+            <option value="india">China</option>
+            <option value="india">USA</option>
+            <option value="india">Russia</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center">Languages Known</td>
+        <td>
+          <input type="checkbox" />
+          <label for="female">English</label>
+          <input type="checkbox" />
+          <label for="female">Kannada</label>
+          <input type="checkbox" />
+          <label for="female">Hindi</label>
+          <input type="checkbox" />
+          <label for="female">Telugu</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" />
+          <label for="female"
+            >Hereby I declare all the given details are true</label
+          >
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: end">
+          Login to
+          <a href="https://ethnus.com/" target="_blank">Ethnus</a> website
+        </td>
+      </tr>
+    </table>
+    <div style="height: 5px"></div>
+    <button name="submit">Register</button>
+  </body>
+</html>
