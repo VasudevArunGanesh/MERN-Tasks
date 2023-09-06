@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    width: 180px;
+    border: 5px solid black;
+    border-style: double;
+  }
+  li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  li a:hover {
+    background-color: orange;
+    color: white;
+  }
+  .c {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(205, 205, 205);
+    width: 180px;
+    border: 5px solid black;
+    border-style: double;
+  }
+  .b {
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .b:hover{
+    background-color: gray;
+  }
