@@ -14,3 +14,67 @@ table,
       tr {
         width: 200;
       }
+
+.second {
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template:150px/  auto auto auto ;
+}
+
+#tl{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+ border-radius: 5px;
+}
+
+#t2{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+ border-radius: 10px;
+}
+#t3{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+ border-radius: 15px;
+}
+#t4{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+}
+#t5{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+}
+#t6{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+}
+#t7{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+ border-radius: 50%;
+}
+
+#t8{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+ 
+}
+#t9{
+  height: 80px;
+  width: 80px;
+ border: 3px solid green;
+ border-top-right-radius: 25px;
+ border-bottom-left-radius: 25px;
+}
+      
