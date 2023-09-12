@@ -1,0 +1,28 @@
+.page{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(160, 50, 50);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    background-color: maroon;
+    padding: 50px;
+    width: 300px;
+    text-align: start;
+    color: white;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    color: white;
+}
+input{
+    margin: 1%;
+}
+button{
+    width:280px;
+}

@@ -1,0 +1,61 @@
+img{
+    height: 15%;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.main{
+    display: block;
+    align-items: center;
+}
+
+.text{
+    width: 500px;
+    height: 30px;
+    font-size: large;
+    display: block;
+    border: 1px solid;
+    border-color: rgb(210, 210, 210);
+}
+label{
+    left: -50px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    margin-bottom: 2px;
+    font-size: large;
+    width: 508px;
+    height: 30px;
+    background-color: rgb(68, 175, 93);
+    color: rgb(242, 241, 241);
+    display: block;
+    border: 0px;
+   
+}
+
+.inp{
+    width: 500px; margin-left: auto;
+    margin-right: auto;
+    
+}
+.fp{
+display: flex;
+justify-content: center;
+background-color: rgb(234, 234, 234);
+height: 40px;
+}
+#fpb{
+    
+    background-color: red;
+    color: white;
+    width: 98px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#space{
+    width: 290px;
+    height: 10px;
+}
