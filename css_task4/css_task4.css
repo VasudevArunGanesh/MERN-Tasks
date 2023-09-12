@@ -7,7 +7,9 @@
     left: -80px;
     color: white;
     text-decoration: none;
-    text-align: center;
+    display: flex;
+    padding-left: 4px;
+    align-items: center;
     height: 60px;
     width: 100px;
     border-radius:0 10px 10px 0;
